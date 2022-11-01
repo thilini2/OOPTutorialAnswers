@@ -1,0 +1,18 @@
+(2) 1) create a new string by appending the sequence of characters of a string to the end of another string.
+Strings are immutable and they cannot be changed therefore a new string object is created from the
+concatenation.
+
+(3) 1) java.awt.Rectangle[x=0,y=0,width=100,height=50]
+       java.awt.Rectangle[x=-10,y=-20,width=120,height=90]
+
+(3) 2) java.awt.Rectangle[x=-10,y=-20,width=120,height=90]
+       java.awt.Rectangle[x=-10,y=-20,width=120,height=90]
+
+       This is because reference r2 is made to point to the same memory location that r1 points to 
+
+(3) 3) 150.0 and 3000.0
+
+       The difference between this program and the previous one is that objects are copied by
+       reference while primitives by value. Thus, the assignment n2 = n1 will copy the value of
+       n1 to n2 but n1 and n2 remain allocated in different memory addresses. Changes to the
+       value of one of them will not affect the other one.
